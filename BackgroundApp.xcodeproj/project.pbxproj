@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		174ECB8F1A83428A0017736D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECB8E1A83428A0017736D /* main.m */; };
 		174ECB921A83428A0017736D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECB911A83428A0017736D /* AppDelegate.m */; };
-		174ECB951A83428A0017736D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECB941A83428A0017736D /* ViewController.m */; };
 		174ECB981A83428A0017736D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174ECB961A83428A0017736D /* Main.storyboard */; };
 		174ECB9A1A83428A0017736D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174ECB991A83428A0017736D /* Images.xcassets */; };
-		174ECB9D1A83428A0017736D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174ECB9B1A83428A0017736D /* LaunchScreen.xib */; };
 		174ECBA91A83428A0017736D /* BackgroundAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBA81A83428A0017736D /* BackgroundAppTests.m */; };
+		174ECBBB1A834B390017736D /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBB91A834B390017736D /* SplashViewController.m */; };
+		174ECBBF1A838C3C0017736D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBBE1A838C3C0017736D /* LoginViewController.m */; };
+		174ECBC61A8392E70017736D /* MSSlidingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBC31A8392E70017736D /* MSSlidingPanelController.m */; };
+		174ECBC71A8392E70017736D /* MSViewControllerSlidingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBC51A8392E70017736D /* MSViewControllerSlidingPanel.m */; };
+		174ECBCE1A839BC50017736D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBCD1A839BC50017736D /* HomeViewController.m */; };
+		174ECBD71A839C530017736D /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBD61A839C530017736D /* MenuTableViewController.m */; };
+		174ECBDB1A839DF60017736D /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBDA1A839DF60017736D /* EmptySegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,26 @@
 		174ECB8E1A83428A0017736D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		174ECB901A83428A0017736D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		174ECB911A83428A0017736D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		174ECB931A83428A0017736D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		174ECB941A83428A0017736D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		174ECB971A83428A0017736D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		174ECB991A83428A0017736D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		174ECB9C1A83428A0017736D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		174ECBA21A83428A0017736D /* BackgroundAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174ECBA71A83428A0017736D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174ECBA81A83428A0017736D /* BackgroundAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundAppTests.m; sourceTree = "<group>"; };
+		174ECBB81A834B390017736D /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		174ECBB91A834B390017736D /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		174ECBBD1A838C3C0017736D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		174ECBBE1A838C3C0017736D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		174ECBC21A8392E70017736D /* MSSlidingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSlidingPanelController.h; sourceTree = "<group>"; };
+		174ECBC31A8392E70017736D /* MSSlidingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSlidingPanelController.m; sourceTree = "<group>"; };
+		174ECBC41A8392E70017736D /* MSViewControllerSlidingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewControllerSlidingPanel.h; sourceTree = "<group>"; };
+		174ECBC51A8392E70017736D /* MSViewControllerSlidingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewControllerSlidingPanel.m; sourceTree = "<group>"; };
+		174ECBCA1A8397020017736D /* BackgroundApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BackgroundApp-Prefix.pch"; sourceTree = "<group>"; };
+		174ECBCC1A839BC50017736D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		174ECBCD1A839BC50017736D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		174ECBD51A839C530017736D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		174ECBD61A839C530017736D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		174ECBD91A839DF60017736D /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		174ECBDA1A839DF60017736D /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +98,12 @@
 		174ECB8B1A83428A0017736D /* BackgroundApp */ = {
 			isa = PBXGroup;
 			children = (
-				174ECB901A83428A0017736D /* AppDelegate.h */,
-				174ECB911A83428A0017736D /* AppDelegate.m */,
-				174ECB931A83428A0017736D /* ViewController.h */,
-				174ECB941A83428A0017736D /* ViewController.m */,
+				174ECBBC1A834B420017736D /* AppDelegate */,
+				174ECBB51A834B390017736D /* Modules */,
+				174ECBCB1A839BC50017736D /* RootViewController */,
 				174ECB961A83428A0017736D /* Main.storyboard */,
 				174ECB991A83428A0017736D /* Images.xcassets */,
-				174ECB9B1A83428A0017736D /* LaunchScreen.xib */,
+				174ECBC01A8392E70017736D /* ThirdParty */,
 				174ECB8C1A83428A0017736D /* Supporting Files */,
 			);
 			path = BackgroundApp;
@@ -98,6 +114,7 @@
 			children = (
 				174ECB8D1A83428A0017736D /* Info.plist */,
 				174ECB8E1A83428A0017736D /* main.m */,
+				174ECBCA1A8397020017736D /* BackgroundApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +134,91 @@
 				174ECBA71A83428A0017736D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		174ECBB51A834B390017736D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBB61A834B390017736D /* Models */,
+				174ECBBA1A834B390017736D /* Views */,
+				174ECBB71A834B390017736D /* ViewControllers */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		174ECBB61A834B390017736D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		174ECBB71A834B390017736D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBB81A834B390017736D /* SplashViewController.h */,
+				174ECBB91A834B390017736D /* SplashViewController.m */,
+				174ECBBD1A838C3C0017736D /* LoginViewController.h */,
+				174ECBBE1A838C3C0017736D /* LoginViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		174ECBBA1A834B390017736D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBD81A839DD30017736D /* Segue */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		174ECBBC1A834B420017736D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				174ECB901A83428A0017736D /* AppDelegate.h */,
+				174ECB911A83428A0017736D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		174ECBC01A8392E70017736D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBC11A8392E70017736D /* MSSlidingPanelController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		174ECBC11A8392E70017736D /* MSSlidingPanelController */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBC21A8392E70017736D /* MSSlidingPanelController.h */,
+				174ECBC31A8392E70017736D /* MSSlidingPanelController.m */,
+				174ECBC41A8392E70017736D /* MSViewControllerSlidingPanel.h */,
+				174ECBC51A8392E70017736D /* MSViewControllerSlidingPanel.m */,
+			);
+			path = MSSlidingPanelController;
+			sourceTree = "<group>";
+		};
+		174ECBCB1A839BC50017736D /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBD51A839C530017736D /* MenuTableViewController.h */,
+				174ECBD61A839C530017736D /* MenuTableViewController.m */,
+				174ECBCC1A839BC50017736D /* HomeViewController.h */,
+				174ECBCD1A839BC50017736D /* HomeViewController.m */,
+			);
+			name = RootViewController;
+			path = Modules/RootViewController;
+			sourceTree = "<group>";
+		};
+		174ECBD81A839DD30017736D /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				174ECBD91A839DF60017736D /* EmptySegue.h */,
+				174ECBDA1A839DF60017736D /* EmptySegue.m */,
+			);
+			path = Segue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +270,11 @@
 				TargetAttributes = {
 					174ECB881A83428A0017736D = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					174ECBA11A83428A0017736D = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				174ECB981A83428A0017736D /* Main.storyboard in Resources */,
-				174ECB9D1A83428A0017736D /* LaunchScreen.xib in Resources */,
 				174ECB9A1A83428A0017736D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +325,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174ECB951A83428A0017736D /* ViewController.m in Sources */,
+				174ECBDB1A839DF60017736D /* EmptySegue.m in Sources */,
 				174ECB921A83428A0017736D /* AppDelegate.m in Sources */,
+				174ECBCE1A839BC50017736D /* HomeViewController.m in Sources */,
 				174ECB8F1A83428A0017736D /* main.m in Sources */,
+				174ECBC61A8392E70017736D /* MSSlidingPanelController.m in Sources */,
+				174ECBBB1A834B390017736D /* SplashViewController.m in Sources */,
+				174ECBC71A8392E70017736D /* MSViewControllerSlidingPanel.m in Sources */,
+				174ECBD71A839C530017736D /* MenuTableViewController.m in Sources */,
+				174ECBBF1A838C3C0017736D /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +362,6 @@
 				174ECB971A83428A0017736D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		174ECB9B1A83428A0017736D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				174ECB9C1A83428A0017736D /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,7 +447,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundApp/BackgroundApp-Prefix.pch";
 				INFOPLIST_FILE = BackgroundApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +461,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundApp/BackgroundApp-Prefix.pch";
 				INFOPLIST_FILE = BackgroundApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +524,7 @@
 				174ECBAE1A83428A0017736D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		174ECBAF1A83428A0017736D /* Build configuration list for PBXNativeTarget "BackgroundAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +533,7 @@
 				174ECBB11A83428A0017736D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

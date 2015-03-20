@@ -7,6 +7,7 @@
 //
 
 #import "SplashViewController.h"
+#import "AppDelegate.h"
 
 @interface SplashViewController ()
 
@@ -14,15 +15,20 @@
 
 @implementation SplashViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad  {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self performSelector:@selector(navigateMainController) withObject:nil afterDelay:5.0];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation
@@ -33,5 +39,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)navigateMainController {
+
+    appDelegate.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+    
+}
+
 
 @end
