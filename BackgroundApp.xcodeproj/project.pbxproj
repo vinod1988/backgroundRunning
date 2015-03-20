@@ -19,6 +19,8 @@
 		174ECBCE1A839BC50017736D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBCD1A839BC50017736D /* HomeViewController.m */; };
 		174ECBD71A839C530017736D /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBD61A839C530017736D /* MenuTableViewController.m */; };
 		174ECBDB1A839DF60017736D /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 174ECBDA1A839DF60017736D /* EmptySegue.m */; };
+		17B8D97C1ABC4E6400C31C99 /* BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B8D97B1ABC4E6400C31C99 /* BackgroundTask.m */; };
+		17B8D97E1ABC4E7C00C31C99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B8D97D1ABC4E7C00C31C99 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		174ECBD61A839C530017736D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		174ECBD91A839DF60017736D /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
 		174ECBDA1A839DF60017736D /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
+		17B8D97A1ABC4E6400C31C99 /* BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTask.h; sourceTree = "<group>"; };
+		17B8D97B1ABC4E6400C31C99 /* BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTask.m; sourceTree = "<group>"; };
+		17B8D97D1ABC4E7C00C31C99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B8D97E1ABC4E7C00C31C99 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +86,7 @@
 		174ECB801A83428A0017736D = {
 			isa = PBXGroup;
 			children = (
+				17B8D97F1ABC4E8800C31C99 /* Framework */,
 				174ECB8B1A83428A0017736D /* BackgroundApp */,
 				174ECBA51A83428A0017736D /* BackgroundAppTests */,
 				174ECB8A1A83428A0017736D /* Products */,
@@ -149,6 +156,8 @@
 		174ECBB61A834B390017736D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				17B8D97A1ABC4E6400C31C99 /* BackgroundTask.h */,
+				17B8D97B1ABC4E6400C31C99 /* BackgroundTask.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +228,14 @@
 				174ECBDA1A839DF60017736D /* EmptySegue.m */,
 			);
 			path = Segue;
+			sourceTree = "<group>";
+		};
+		17B8D97F1ABC4E8800C31C99 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				17B8D97D1ABC4E7C00C31C99 /* AVFoundation.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +350,7 @@
 				174ECBBB1A834B390017736D /* SplashViewController.m in Sources */,
 				174ECBC71A8392E70017736D /* MSViewControllerSlidingPanel.m in Sources */,
 				174ECBD71A839C530017736D /* MenuTableViewController.m in Sources */,
+				17B8D97C1ABC4E6400C31C99 /* BackgroundTask.m in Sources */,
 				174ECBBF1A838C3C0017736D /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
